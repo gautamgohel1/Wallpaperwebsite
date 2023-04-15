@@ -29,7 +29,7 @@ h3 {
   border-radius: 12px;
   display: inline-block;
   background: #fff;
-  width: 300px;
+  width: 100%;
   height: auto;
   overflow: hidden;
   box-shadow: 0px 10px 25px #999;
@@ -55,6 +55,7 @@ p.header {
   font-size: 18px;
   font-weight: bold;
   margin-top: 10px;
+  margin-bottom: 0px !important;
 }
 
 p.content {
@@ -91,14 +92,14 @@ a .readmore:hover i {
 
 .button-center {
   background-color: #9d0bd6;
-  margin-top: 20px;
+  margin-top: 10px;
   color: #fff;
 }
 
 a .leesmeer {
   height: 40px;
   width: 110px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   margin: 0 auto;
   font-size: 15px;
   display: flex;
@@ -106,25 +107,25 @@ a .leesmeer {
   justify-content: center;
   
 }
+ #container{
+  padding-left: 6.5vw;
+  width: 100%;
 
+}
 .card_row{
    float: left;
   padding: 30px 0px 0px 50px;
-
+  display: flex;
+flex-wrap: wrap;
+  
   /* position: relative;
   flex-wrap: wrap;*/
-  align-content: flex-start;
-  justify-content: center;
-  align-items: center; 
- 
+  align-items: center;
+  
+  
 }
 
-#container{
-  padding-left: 6.5vw;
-  /* position: relative;
-  display: flex; */
 
-}
 
 .navbar{
   box-shadow: 0px 0px 18px 0px #e6e6e6;
