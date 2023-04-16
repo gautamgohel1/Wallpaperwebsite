@@ -3,19 +3,15 @@ import "./App.css";
 function App(props) {
   return (
     <>
-
-      <div id="container">
-        <div className="card_row">
-          <div className="wrapper">
-            <img src={props.imgsrc} alt="" className="pic" />
-            <p className="header">{props.title}</p>
-            <p className="content">{props.content}</p>
+      <div className="container-card">
+        <div className="card card-img">
+          <img src={props.imgsrc} className="card-img-top" alt="Wallpaper" />
+          <div className="card-body">
+            <h5 className="card-title">{props.title}</h5>
             <a href={props.imgsrc} target=" ">
-              <div className="button-center">
-                <div className="leesmeer">
-                  <b>Download</b> <i className="fas fa-angle-right"></i>
-                </div>
-              </div>
+              <button className="btn btn-card btn-primary btn-lg ">
+                Download
+              </button>
             </a>
           </div>
         </div>

@@ -26,7 +26,7 @@ function Topheader(props) {
                 aria-current="page"
                 href="/"
               >
-                Welcome to wallpaper web
+                Welcome 
               </a>
             </li>
           </ul>
