@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Wallpaperwebsite/static/css/main.5f6a5e3e.css",
-    "main.js": "/Wallpaperwebsite/static/js/main.028e307b.js",
+    "main.css": "/Wallpaperwebsite/static/css/main.1aab1309.css",
+    "main.js": "/Wallpaperwebsite/static/js/main.6e1ce615.js",
     "static/js/787.33fc5e0f.chunk.js": "/Wallpaperwebsite/static/js/787.33fc5e0f.chunk.js",
     "static/media/logo.svg": "/Wallpaperwebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Wallpaperwebsite/index.html",
-    "main.5f6a5e3e.css.map": "/Wallpaperwebsite/static/css/main.5f6a5e3e.css.map",
-    "main.028e307b.js.map": "/Wallpaperwebsite/static/js/main.028e307b.js.map",
+    "main.1aab1309.css.map": "/Wallpaperwebsite/static/css/main.1aab1309.css.map",
+    "main.6e1ce615.js.map": "/Wallpaperwebsite/static/js/main.6e1ce615.js.map",
     "787.33fc5e0f.chunk.js.map": "/Wallpaperwebsite/static/js/787.33fc5e0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f6a5e3e.css",
-    "static/js/main.028e307b.js"
+    "static/css/main.1aab1309.css",
+    "static/js/main.6e1ce615.js"
   ]
 }
