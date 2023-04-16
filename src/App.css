@@ -5,10 +5,12 @@ body{
   }
 .container-card{
   /* padding: 4% !important; */
-  
-
-
+  margin-top: 0px !important;
   border-radius: 12px !important;
+}
+
+.paddingtop{
+  margin-top: 2em;
 }
 .card{
   

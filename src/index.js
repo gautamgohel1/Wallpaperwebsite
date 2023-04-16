@@ -10,6 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Topheader />
+    <div className="paddingtop">
     <div className="container">
       <div className="card-card">
         <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
@@ -22,6 +23,7 @@ root.render(
           <App imgsrc={Sdata[6].imgsrc} title={Sdata[6].sname} />
           <App imgsrc={Sdata[7].imgsrc} title={Sdata[7].sname} />
         </div>
+      </div>
       </div>
     </div>
   </React.StrictMode>
